@@ -1,14 +1,14 @@
-ul {
+.list ul {
     list-style: none;
 }
 
-ul>li>a {
+.list ul>li>a {
     color: #bee9e8;
     text-decoration: none;
     line-height: 1.8;
 }
 
-ul>li>a:hover,
+.list ul>li>a:hover,
 a:hover {
     color: #fff;
     text-decoration: none;
@@ -34,7 +34,7 @@ a:hover {
     width: 2.25rem;
 }
 
-p {
+.about-content {
     color: #bee9e8;
 }
 
@@ -84,4 +84,10 @@ p {
     font-weight: 400;
     margin-left: 1rem;
     list-style-type: square;
+}
+
+@media only screen and (min-width: 600px) {
+    .footer-up {
+        display: flex;
+    }
 }
